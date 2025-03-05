@@ -52,57 +52,64 @@
   <div data-animation="default" class="navbar w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium"
     data-w-id="06ab6c64-468c-b44e-1b8c-856deb96ba7f" role="banner" data-no-scroll="1" data-duration="400"
     data-doc-height="1">
-    <a href="index.html" aria-current="page" class="logo-link-wrapper w-nav-brand w--current"><img width="Auto"
-        height="Auto" alt="logo" src="images/iDesigner.png" loading="eager"
-        srcset="images/iDesigner-p-500.png 500w, images/iDesigner.png 715w" sizes="(max-width: 991px) 66px, 5vw"
-        class="logo"></a>
+    <a href="index.html" class="logo-link-wrapper w-nav-brand"><img width="Auto" height="Auto" alt="logo"
+        src="images/iDesigner.png" loading="eager" srcset="images/iDesigner-p-500.png 500w, images/iDesigner.png 715w"
+        sizes="(max-width: 991px) 66px, 5vw" class="logo"></a>
     <div class="nav-container w-container">
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="nav-link-wrapper">
           <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-          <a href="index.html" aria-current="page" class="nav-link move-down hide-on-tab w-nav-link w--current">Home</a>
+          <a href="index.html" id="home-link" aria-current="page"
+            class="nav-link move-down hide-on-tab w-nav-link w--current">首页</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="about.html" class="nav-link w-nav-link">About</a>
-          <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">About</a>
+          <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">关于</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Services.html" class="nav-link w-nav-link">Services</a>
-          <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">Services</a>
+          <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">服务</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="products.html" class="nav-link w-nav-link">Products</a>
-          <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">Products</a>
+          <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">产品</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="edge.html" class="nav-link w-nav-link">Edge</a>
-          <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">Edge</a>
+          <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">优势</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Investment.html" class="nav-link w-nav-link">Investment</a>
-          <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">Investment</a>
+          <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">投资策略</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Partnership.html" class="nav-link w-nav-link">Partnership</a>
-          <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">Partnership</a>
+          <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">合作机会</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="contact.html" class="nav-link w-nav-link">Contact</a>
-          <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">Contact</a>
+          <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">联系我们</a>
         </div>
       </nav>
+      <div style="position: absolute; top: 10px; right: 10px; background-color: #000408;">
+        <button onclick="setLanguage('en')" id="btn-en"
+          style="background-color: #000408; color: white;">English</button>
+        <button onclick="setLanguage('zh')" id="btn-zh" style="background-color: #000408; color: white;">中文</button>
+      </div>
       <div class="menu-button w-nav-button">
         <div class="burger-icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
+
+  
   <section class="hero-section">
     <div class="fingerprint"></div>
     <div class="circle"></div>
     <div class="w-layout-blockcontainer container w-container">
       <div class="hero-wrapper">
-        <h5 class="heading">Welcome</h5>
-        <h1 class="hero-text">ZETA</h1>
+        <h5 data-key="index_1_heading" class="heading">Welcome</h5>
+        <h1 data-key="index_2_heading" class="hero-text">ZETA</h1>
         <a href="#brands" class="arrow-border-wrapper w-inline-block">
           <div data-w-id="022bdf7a-1da5-487f-e90a-10a13619b2dd" class="icon-wrapper"><img width="Auto" height="Auto"
               alt="arrow up" src="images/arrow_outward.svg" loading="eager"
@@ -116,8 +123,8 @@
   </section>
 
   <div style="text-align: center; margin-top: 30px; padding: 0 20px;">
-    <h2 style="font-size: 36px; font-weight: bold;">Innovation Drives Future</h2>
-    <p style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
+    <h2 data-key="hero_heading" style="font-size: 36px; font-weight: bold;">Innovation Drives Future</h2>
+    <p data-key="hero_description" style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
       Creating lasting value through innovative solutions and professional services
     </p>
   </div>
@@ -153,10 +160,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/Sticker-Mockup-p-500.jpg 500w, images/Sticker-Mockup-p-800.jpg 800w, images/Sticker-Mockup-p-1080.jpg 1080w, images/Sticker-Mockup.jpg 1440w"
                   alt="sticker mock up" src="images/Sticker-Mockup.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Personal Wealth Advisory</h4>
+              <h4 data-key="personal_wealth_title" class="caps">Personal Wealth Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our experts offer unbiased advice to assist you in making informed decisions
+              <p data-key="personal_wealth_description" class="self-align-left">Our experts offer unbiased advice to assist you in making informed decisions
                 about your assets.</p>
             </div>
           </div>
@@ -166,10 +173,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Philanthropic Advisory</h4>
+              <h4 data-key="philanthropic_advisory_title" class="caps">Philanthropic Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We help you plan and manage your charitable initiatives to maximize their
+              <p data-key="philanthropic_advisory_description" class="self-align-left">We help you plan and manage your charitable initiatives to maximize their
                 impact.</p>
             </div>
           </div>
@@ -179,10 +186,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Family Legacy and Governance Advisory</h4>
+              <h4 data-key="family_legacy_title" class="caps">Family Legacy and Governance Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our services help you build strong governance structures to align with your
+              <p data-key="family_legacy_description" class="self-align-left">Our services help you build strong governance structures to align with your
                 family's goals.</p>
             </div>
           </div>
@@ -192,10 +199,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Insurance Advisory</h4>
+              <h4 data-key="insurance_advisory_title" class="caps">Insurance Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We provide tailored insurance strategies to ensure your financial security.</p>
+              <p data-key="insurance_advisory_description" class="self-align-left">We provide tailored insurance strategies to ensure your financial security.</p>
             </div>
           </div>
           <div class="services-card">
@@ -204,10 +211,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Wealth Transfer and Estate Planning Advisory</h4>
+              <h4 data-key="wealth_transfer_title" class="caps">Wealth Transfer and Estate Planning Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our comprehensive plans assist in the smooth transfer of wealth to future
+              <p data-key="wealth_transfer_description" class="self-align-left">Our comprehensive plans assist in the smooth transfer of wealth to future
                 generations.</p>
             </div>
           </div>
@@ -217,29 +224,27 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Income Tax Planning Coordination</h4>
+              <h4 data-key="income_tax_title" class="caps">Income Tax Planning Coordination</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We develop strategies to minimize tax liabilities and enhance investment
+              <p data-key="income_tax_description" class="self-align-left">We develop strategies to minimize tax liabilities and enhance investment
                 returns.</p>
             </div>
           </div>
-
-          <p class="max-width-30rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis,
-            dolor sed consectetur gravida.</p>
         </div>
+
         <div class="services-wrapper slide-from-right-animation">
-          <h5>Explore the range of services we offer to meet your financial needs.</h5>
-          <h2 class="services-title">SERVICES</h2>
+          <h5 data-key="Explore">Explore the range of services we offer to meet your financial needs.</h5>
+          <h2 data-key="SERVICES_heading" class="services-title">SERVICES</h2>
           <div class="services-card">
             <div class="services-title-flex">
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/CreativeDesignStudioX-p-500.jpg 500w, images/CreativeDesignStudioX-p-800.jpg 800w, images/CreativeDesignStudioX-p-1080.jpg 1080w, images/CreativeDesignStudioX.jpg 1440w"
                   alt="" src="images/CreativeDesignStudioX.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Trust and Estate Planning Coordination</h4>
+              <h4 data-key="trust_estate_title" class="caps">Trust and Estate Planning Coordination</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our team ensures that your legacy is preserved and managed across generations
+              <p data-key="trust_estate_description" class="self-align-left">Our team ensures that your legacy is preserved and managed across generations
                 according to your wishes.</p>
             </div>
           </div>
@@ -248,10 +253,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Next Gen Financial Education</h4>
+              <h4 data-key="next_gen_education_title" class="caps">Next Gen Financial Education</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We offer personalized financial education plans to prepare the next generation
+              <p data-key="next_gen_education_description" class="self-align-left">We offer personalized financial education plans to prepare the next generation
                 for future financial responsibilities.</p>
             </div>
           </div>
@@ -260,10 +265,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Financial Planning Analysis</h4>
+              <h4 data-key="financial_planning_title" class="caps">Financial Planning Analysis</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our analysis helps you build a comprehensive financial plan with tailored
+              <p data-key="financial_planning_description" class="self-align-left">Our analysis helps you build a comprehensive financial plan with tailored
                 recommendations.</p>
             </div>
           </div>
@@ -272,10 +277,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Investment Planning and Administration</h4>
+              <h4 data-key="investment_planning_title" class="caps">Investment Planning and Administration</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We offer solutions in asset allocation and management of investment portfolios.
+              <p data-key="investment_planning_description" class="self-align-left">We offer solutions in asset allocation and management of investment portfolios.
               </p>
             </div>
           </div>
@@ -284,10 +289,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Financial Reporting</h4>
+              <h4 data-key="financial_reporting_title" class="caps">Financial Reporting</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our reports provide clear insights into cash flow, net worth, and estate
+              <p data-key="financial_reporting_description" class="self-align-left">Our reports provide clear insights into cash flow, net worth, and estate
                 balance sheets.</p>
             </div>
           </div>
@@ -296,10 +301,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Family Office Services</h4>
+              <h4 data-key="family_office_title" class="caps">Family Office Services</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We assist in managing household and office finances, including bill payments
+              <p data-key="family_office_description" class="self-align-left">We assist in managing household and office finances, including bill payments
                 and tax preparation.</p>
             </div>
           </div>
@@ -311,10 +316,10 @@
     <div class="w-layout-blockcontainer container w-container">
       <div class="space-7rem"></div>
       <div data-w-id="4bf48e95-1b6f-5737-3242-d95977d5bf77" class="works-title-wrapper">
-        <h2 class="works-title">Our Story</h2>
-        <h2 class="works-title outline-white">Our Story</h2>
-        <h2 class="works-title">Our Story</h2>
-        <h2 class="works-title outline-white">Our Story</h2>
+        <h2 data-key="Our Story" class="works-title">Our Story</h2>
+        <h2 data-key="Our Story" class="works-title outline-white">Our Story</h2>
+        <h2 data-key="Our Story" class="works-title">Our Story</h2>
+        <h2 data-key="Our Story" class="works-title outline-white">Our Story</h2>
       </div>
     </div>
   </section>
@@ -328,7 +333,7 @@
           <div class="works-block">
             <a href="products.html" class="works-link-wrapper w-inline-block"> <!-- 指向本地HTML页面 -->
               <div class="works-icon-wrapper">
-                <h5 class="works-hover">View Work</h5>
+                <h5 data-key="View Work" class="works-hover">View Work</h5>
               </div>
               <div class="works-image-wrapper">
                 <img loading="eager" height="" alt="Tech Project"
@@ -337,13 +342,13 @@
               </div>
             </a>
             <div class="works-text-block">
-              <h3 class="caps">Our Products</h3> <!-- 静态标题 -->
+              <h3 data-key="index_2_heading" class="caps">Our Products</h3> <!-- 静态标题 -->
               <div class="works-flex">
                 <div class="works-badge">
-                  <h5>Design</h5> <!-- 静态标签 -->
+                  <h5 data-key="index_2_heading">Design</h5> <!-- 静态标签 -->
                 </div>
                 <div class="works-badge">
-                  <h5>Development</h5> <!-- 静态标签 -->
+                  <h5 data-key="index_2_heading">Development</h5> <!-- 静态标签 -->
                 </div>
               </div>
             </div>
@@ -352,7 +357,7 @@
           <div class="works-block">
             <a href="edge.html" class="works-link-wrapper w-inline-block">
               <div class="works-icon-wrapper">
-                <h5 class="works-hover">View Work</h5>
+                <h5 data-key="View Work" class="works-hover">View Work</h5>
               </div>
               <div class="works-image-wrapper">
                 <img loading="eager" height="" alt="Design Project"
@@ -361,13 +366,13 @@
               </div>
             </a>
             <div class="works-text-block">
-              <h3 class="caps">Our Edge</h3> <!-- 静态标题 -->
+              <h3 data-key="Our Edge" class="caps">Our Edge</h3> <!-- 静态标题 -->
               <div class="works-flex">
                 <div class="works-badge">
-                  <h5>UI/UX</h5> <!-- 静态标签 -->
+                  <h5 data-key="UI/UX">UI/UX</h5> <!-- 静态标签 -->
                 </div>
                 <div class="works-badge">
-                  <h5>Branding</h5> <!-- 静态标签 -->
+                  <h5 data-key="Branding">Branding</h5> <!-- 静态标签 -->
                 </div>
               </div>
             </div>
@@ -376,7 +381,7 @@
           <div class="works-block">
             <a href="Investment.html" class="works-link-wrapper w-inline-block">
               <div class="works-icon-wrapper">
-                <h5 class="works-hover">View Work</h5>
+                <h5 data-key="View Work" class="works-hover">View Work</h5>
               </div>
               <div class="works-image-wrapper">
                 <img loading="eager" height="" alt="Design Project"
@@ -385,13 +390,13 @@
               </div>
             </a>
             <div class="works-text-block">
-              <h3 class="caps">Investment Strategies</h3> <!-- 静态标题 -->
+              <h3 data-key="Investment" class="caps">Investment Strategies</h3> <!-- 静态标题 -->
               <div class="works-flex">
                 <div class="works-badge">
-                  <h5>UI/UX</h5> <!-- 静态标签 -->
+                  <h5 data-key="UI/UX">UI/UX</h5> <!-- 静态标签 -->
                 </div>
                 <div class="works-badge">
-                  <h5>Branding</h5> <!-- 静态标签 -->
+                  <h5 data-key="Branding">Branding</h5> <!-- 静态标签 -->
                 </div>
               </div>
             </div>
@@ -400,7 +405,7 @@
           <div class="works-block">
             <a href="Partnership.html" class="works-link-wrapper w-inline-block">
               <div class="works-icon-wrapper">
-                <h5 class="works-hover">View Work</h5>
+                <h5 data-key="View Work" class="works-hover">View Work</h5>
               </div>
               <div class="works-image-wrapper">
                 <img loading="eager" height="" alt="Design Project"
@@ -409,13 +414,13 @@
               </div>
             </a>
             <div class="works-text-block">
-              <h3 class="caps">Partnership Opportunities</h3> <!-- 静态标题 -->
+              <h3 data-key="Partnership" class="caps">Partnership Opportunities</h3> <!-- 静态标题 -->
               <div class="works-flex">
                 <div class="works-badge">
-                  <h5>UI/UX</h5> <!-- 静态标签 -->
+                  <h5 data-key="UI/UX">UI/UX</h5> <!-- 静态标签 -->
                 </div>
                 <div class="works-badge">
-                  <h5>Branding</h5> <!-- 静态标签 -->
+                  <h5 data-key="Branding">Branding</h5> <!-- 静态标签 -->
                 </div>
               </div>
             </div>
@@ -426,8 +431,8 @@
   </section>
 
   <div style="text-align: center; margin-top: 30px; padding: 0 20px;">
-    <h2 style="font-size: 36px; font-weight: bold;">Our Story</h2>
-    <p style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
+    <h2 data-key="Our Story" style="font-size: 36px; font-weight: bold;">Our Story</h2>
+    <p data-key="about_description" style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
       Zeta Quantum Capital Limited, established in 2024 in Hong Kong, is a leading asset management firm specializing in
       quantitative trading, algorithm development, and portfolio management.
     </p>
@@ -439,15 +444,15 @@
       <div class="metrics-wrapper">
         <div data-w-id="a546ec61-5762-16bd-4aea-b274da1ddef3" class="metrics-block">
           <h2 class="metrics-text">500+</h2>
-          <p>Clients Served</p>
+          <p data-key="stats_clients">Clients Served</p>
         </div>
         <div data-w-id="a546ec61-5762-16bd-4aea-b274da1ddef8" class="metrics-block">
           <h2 class="metrics-text">50+</h2>
-          <p>Team Members</p>
+          <p data-key="stats_team_members">Team Members</p>
         </div>
         <div data-w-id="a546ec61-5762-16bd-4aea-b274da1ddefd" class="metrics-block">
           <h2 class="metrics-text">98%</h2>
-          <p>Client Satisfaction</p>
+          <p data-key="stats_client_satisfaction">Client Satisfaction</p>
         </div>
       </div>
       <div class="space-7rem"></div>
@@ -455,8 +460,8 @@
   </section>
 
   <div style="text-align: center; margin-top: 30px; padding: 0 20px;">
-    <h2 style="font-size: 36px; font-weight: bold;">Core Team</h2>
-    <p style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
+    <h2 data-key="core_team_heading" style="font-size: 36px; font-weight: bold;">Core Team</h2>
+    <p data-key="core_team_description" style="font-size: 18px; line-height: 1.6; max-width: 80%; margin: 0 auto;">
       Our professional team is our most valuable asset and the core guarantee of creating value for our clients.
     </p>
   </div>
@@ -469,49 +474,49 @@
         <div class="mask w-slider-mask">
           <div class="slide w-slide">
             <div class="reviews-slide"><img width="Auto" height="Auto" alt="" src="images/Quote.svg" loading="lazy">
-              <h4>I was blown away by his creativity in <br>creating a memorable brand identity. His <br>design work has
+              <h4 data-key="team_member_1">I was blown away by his creativity in <br>creating a memorable brand identity. His <br>design work has
                 helped us stand out.</h4><img width="64" height="64" alt=""
                 src="https://uploads-ssl.webflow.com/66a5f61b61b9f0a48636c965/66a5f61b61b9f0a48636ca00_Reviews3.jpg"
                 loading="eager" class="reviews-image">
               <div class="review-name-block">
                 <h5>John Smith</h5>
-                <h5 class="font-primary">Founder & CEO</h5>
+                <h5 data-key="team_member_1_role" class="font-primary">Founder & CEO</h5>
               </div>
             </div>
           </div>
           <div class="slide w-slide">
             <div class="reviews-slide"><img width="Auto" height="Auto" alt="" src="images/Quote.svg" loading="lazy">
-              <h4>It was a pleasure working on a design <br>project and I must say that the experience <br>exceeded all
+              <h4 data-key="team_member_3">It was a pleasure working on a design <br>project and I must say that the experience <br>exceeded all
                 my expectations.</h4><img width="64" height="64" alt=""
                 src="https://uploads-ssl.webflow.com/66a5f61b61b9f0a48636c965/66a5f61b61b9f0a48636c9f7_Reviews1.jpg"
                 loading="eager" class="reviews-image">
               <div class="review-name-block">
                 <h5>Sarah Johnson</h5>
-                <h5 class="font-primary">Technical Director</h5>
+                <h5 data-key="team_member_2_role" class="font-primary">Technical Director</h5>
               </div>
             </div>
           </div>
           <div class="slide w-slide">
             <div class="reviews-slide"><img width="Auto" height="Auto" alt="" src="images/Quote.svg" loading="lazy">
-              <h4>I couldn&#x27;t be happier with the <br>results of our collaboration. He took <br>our vision and
+              <h4 data-key="team_member_2">I couldn&#x27;t be happier with the <br>results of our collaboration. He took <br>our vision and
                 brought it to life.</h4><img width="64" height="64" alt=""
                 src="https://uploads-ssl.webflow.com/66a5f61b61b9f0a48636c965/66a5f61b61b9f0a48636ca05_Reviews2.jpg"
                 loading="eager" class="reviews-image">
               <div class="review-name-block">
                 <h5>Michael Chen</h5>
-                <h5 class="font-primary">Product Manager</h5>
+                <h5 data-key="team_member_3_role" class="font-primary">Product Manager</h5>
               </div>
             </div>
           </div>
           <div class="slide w-slide">
             <div class="reviews-slide"><img width="Auto" height="Auto" alt="" src="images/Quote.svg" loading="lazy">
-              <h4>I couldn&#x27;t be happier with the <br>results of our collaboration. He took <br>our vision and
+              <h4 data-key="team_member_2">I couldn&#x27;t be happier with the <br>results of our collaboration. He took <br>our vision and
                 brought it to life.</h4><img width="64" height="64" alt=""
                 src="https://uploads-ssl.webflow.com/66a5f61b61b9f0a48636c965/66a5f61b61b9f0a48636ca05_Reviews2.jpg"
                 loading="eager" class="reviews-image">
               <div class="review-name-block">
                 <h5>Emma Wilson</h5>
-                <h5 class="font-primary">Design Director</h5>
+                <h5 data-key="team_member_4_role" class="font-primary">Design Director</h5>
               </div>
             </div>
           </div>
@@ -531,18 +536,18 @@
     <div class="w-layout-blockcontainer container padding-9rem w-container">
       <div data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f1" class="cta-block">
         <div class="cta-text-block">
-          <h5>Contact me</h5>
+          <h5 data-key="Contact">Contact me</h5>
           <div class="flex">
-            <h2 data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f6" class="cta-large">GET IN</h2><img
+            <h2 data-key="GET IN" data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f6" class="cta-large">GET IN</h2><img
               data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f8" loading="eager" alt="icon" src="images/arrow_out.svg"
               class="arrow-image-small">
           </div>
-          <h2 data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f9" class="cta-large outline-white">TOUCH</h2>
+          <h2 data-key="TOUCH" data-w-id="6e9750ff-a872-9aa1-2869-bd0dc16b00f9" class="cta-large outline-white">TOUCH</h2>
         </div>
         <a href="contact.html" data-w-id="3beb919a-4aaa-f885-16a0-1c9b6601a3ec"
           class="button-with-circle-icon button-light w-inline-block">
-          <p class="button-text">Contact</p>
-          <p class="button-text-absolute">Contact</p>
+          <p data-key="Contact_1" class="button-text">Contact</p>
+          <p data-key="Contact_1" class="button-text-absolute">Contact</p>
           <div class="button-arrow-wrapper button-light"><img width="Auto" height="Auto" alt=""
               src="images/arrow_outward.svg" loading="eager" class="arrow invert"></div>
         </a>
@@ -576,52 +581,52 @@
         </div>
         <div class="footer-right-flex">
           <div class="footer-wrapper">
-            <h5 class="font-white">Main</h5>
+            <h5 data-key="Main" class="font-white">Main</h5>
             <div class="footer-link-wrapper">
               <a href="index.html" aria-current="page" class="footer-link w--current">Home</a>
-              <a href="index.html" aria-current="page" class="footer-link move-down w--current">Home</a>
+              <a href="index.html" aria-current="page" class="footer-link move-down w--current">首页</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="about.html" class="footer-link">About</a>
-              <a href="about.html" class="footer-link move-down">About</a>
+              <a href="about.html" class="footer-link move-down">关于</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="works.html" class="footer-link">Works</a>
-              <a href="works.html" class="footer-link move-down">Works</a>
+              <a href="works.html" class="footer-link move-down">工作</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Pages</h5>
+            <h5 data-key="Pages" class="font-white">Pages</h5>
             <div class="footer-link-wrapper">
               <a href="contact.html" class="footer-link">Contact</a>
-              <a href="contact.html" class="footer-link move-down">Contact</a>
+              <a href="contact.html" class="footer-link move-down">联系</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="terms-conditions.html" class="footer-link">Terms &amp; Conditions</a>
-              <a href="terms-conditions.html" class="footer-link move-down">Terms &amp; Conditions</a>
+              <a href="terms-conditions.html" class="footer-link move-down">条款 &amp; 条件</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-              <a href="privacy-policy.html" class="footer-link move-down">Privacy Policy</a>
+              <a href="privacy-policy.html" class="footer-link move-down">隐私策略</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Utilities</h5>
+            <h5 data-key="Utilities" class="font-white">Utilities</h5>
             <div class="footer-link-wrapper">
               <a href="utilties/style-guide.html" class="footer-link">Style Guide</a>
-              <a href="utilties/style-guide.html" class="footer-link move-down">Style Guide</a>
+              <a href="utilties/style-guide.html" class="footer-link move-down">风格指南</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/instructions.html" class="footer-link">Instructions</a>
-              <a href="utilties/instructions.html" class="footer-link move-down">Instructions</a>
+              <a href="utilties/instructions.html" class="footer-link move-down">指示</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/licenses.html" class="footer-link">Licenses</a>
-              <a href="utilties/licenses.html" class="footer-link move-down">Licenses</a>
+              <a href="utilties/licenses.html" class="footer-link move-down">许可证</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/changelog.html" class="footer-link">Changelog</a>
-              <a href="utilties/changelog.html" class="footer-link move-down">Changelog</a>
+              <a href="utilties/changelog.html" class="footer-link move-down">更改日志</a>
             </div>
           </div>
         </div>
@@ -651,5 +656,80 @@
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
+
+<script>
+  let language = localStorage.getItem('language') || 'en'; // Default language
+
+  function loadDictionary() {
+      fetch('/dic/index.xml')
+          .then(response => response.text())
+          .then(data => {
+              const parser = new DOMParser();
+              const xmlDoc = parser.parseFromString(data, "text/xml");
+
+              // Update all elements with data-key
+              document.querySelectorAll('[data-key]').forEach(element => {
+                  const key = element.dataset.key;
+                  const translation = xmlDoc.querySelector(`entry[key="${key}"] > ${language}`);
+                  if (translation) {
+                      element.textContent = translation.textContent;
+                  }
+              });
+
+
+          });
+
+
+      // Load nav.xml for navigation links
+      // fetch('/dic/nav.xml')
+      //     .then(response => response.text())
+      //     .then(data => {
+      //         const parser = new DOMParser();
+      //         const xmlDoc = parser.parseFromString(data, "text/xml");
+
+      //         // Update the navigation links based on the selected language
+      //         const navMenu = document.getElementById('nav-menu');
+      //         navMenu.innerHTML = '';  // Clear any existing links
+      //         const navLinks = ['index', 'about', 'services', 'products', 'edge', 'investment', 'partnership', 'contact'];
+      //         navLinks.forEach(link => {
+      //             const navItem = document.createElement('a');
+      //             navItem.href = `${link}.html`;
+      //             navItem.innerText = xmlDoc.querySelector(`entry[key="${link}"] > ${language}`).textContent;
+      //             navMenu.appendChild(navItem);
+      //         });
+      //     });
+  }
+
+  function setLanguage(lang) {
+      language = lang;
+      localStorage.setItem('language', lang); // Save language preference
+      loadDictionary();
+  }
+
+  // Load content when the page loads
+  window.onload = loadDictionary;
+</script>
+
+<style>
+  button {
+      cursor: pointer;
+  }
+
+  /* Fade-in animation */
+  .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+
+      100% {
+          opacity: 1;
+      }
+  }
+</style>
 
 </html>

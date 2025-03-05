@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="edge_heading">
+        <en>Our Edge</en>
+        <zh>我们的优势</zh>
+    </entry>
+    <entry key="function-heading">
+        <en>Function</en>
+        <zh>功能</zh>
+    </entry>
+    <entry key="function-description">
+        <en>Highlight the differentiated advantages of your technology and services compared to competitors.</en>
+        <zh>突出您的技术和服务与竞争对手的差异化优势。</zh>
+    </entry>
+    <!-- Content Section -->
+    <entry key="content-heading">
+        <en>Content</en>
+        <zh>内容</zh>
+    </entry>
+    <entry key="content-item-1">
+        <en>Technological leadership: High-frequency trading systems, intraday trading models, and algorithm optimization capabilities.</en>
+        <zh>技术领先性：如高频交易系统、日内交易模型、算法优化能力。</zh>
+    </entry>
+    <entry key="content-item-2">
+        <en>Risk management: Showcase your emphasis on risk control (e.g., max drawdown in four years not exceeding 20%).</en>
+        <zh>风险管理能力：展示您对风险控制的重视（如四年最大回撤不超过20%）。</zh>
+    </entry>
+    <entry key="content-item-3">
+        <en>Data-driven decisions: How big data analysis and machine learning improve strategies.</en>
+        <zh>数据驱动决策：如何通过大数据分析和机器学习提升策略。</zh>
+    </entry>
+    <entry key="content-item-4">
+        <en>Global perspective: How dual offices in Hong Kong and Shanghai support both global and localized investment strategies.</en>
+        <zh>全球视野：香港和上海的双办公室如何支持全球化和本地化的投资策略。</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+</dictionary>

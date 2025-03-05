@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="contact_heading">
+        <en>Contact Us</en>
+        <zh>联系我们</zh>
+    </entry>
+    <entry key="contact_description">
+        <en>We have offices in both Shanghai and Hong Kong. Here's how you can reach us:</en>
+        <zh>我们在上海和香港都设有办公室。以下是联系我们的方式：</zh>
+    </entry>
+    <entry key="shanghai_office">
+        <en>Shanghai Office</en>
+        <zh>上海办公室</zh>
+    </entry>
+    <entry key="shanghai_email">
+        <en>shanghai@zetaquantum.com</en>
+        <zh>shanghai@zetaquantum.com</zh>
+    </entry>
+    <entry key="shanghai_phone">
+        <en>+86 13818360835</en>
+        <zh>+86 13818360835</zh>
+    </entry>
+    <entry key="shanghai_address">
+        <en>Zeta Quantum Capital, 88 Century Avenue, Pudong, Shanghai, China</en>
+        <zh>泽塔量子资本，中国上海浦东世纪大道88号</zh>
+    </entry>
+    <entry key="hongkong_office">
+        <en>Hong Kong Office</en>
+        <zh>香港办公室</zh>
+    </entry>
+    <entry key="hongkong_email">
+        <en>contact@zetaquantum.com</en>
+        <zh>contact@zetaquantum.com</zh>
+    </entry>
+    <entry key="hongkong_phone">
+        <en>+852 51773162</en>
+        <zh>+852 51773162</zh>
+    </entry>
+    <entry key="hongkong_address">
+        <en>Zeta Quantum Capital, 123 Finance Street, Central, Hong Kong</en>
+        <zh>泽塔量子资本，香港中环金融街123号</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+</dictionary>

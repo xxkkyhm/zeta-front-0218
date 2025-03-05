@@ -46,50 +46,58 @@
         src="images/iDesigner.png" loading="eager" srcset="images/iDesigner-p-500.png 500w, images/iDesigner.png 715w"
         sizes="(max-width: 991px) 66px, 5vw" class="logo"></a>
     <div class="nav-container w-container">
-        <nav role="navigation" class="nav-menu w-nav-menu">
-            <div class="nav-link-wrapper">
-              <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-              <a href="index.html" aria-current="page" class="nav-link move-down hide-on-tab w-nav-link w--current">Home</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="about.html" class="nav-link w-nav-link">About</a>
-              <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">About</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="Services.html" class="nav-link w-nav-link">Services</a>
-              <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">Services</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="products.html" class="nav-link w-nav-link">Products</a>
-              <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">Products</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="edge.html" class="nav-link w-nav-link">Edge</a>
-              <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">Edge</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="Investment.html" class="nav-link w-nav-link">Investment</a>
-              <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">Investment</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="Partnership.html" class="nav-link w-nav-link">Partnership</a>
-              <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">Partnership</a>
-            </div>
-            <div class="nav-link-wrapper">
-              <a href="contact.html" class="nav-link w-nav-link">Contact</a>
-              <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">Contact</a>
-            </div>
-          </nav>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <div class="nav-link-wrapper">
+          <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
+          <a href="index.html" id="home-link" aria-current="page"
+            class="nav-link move-down hide-on-tab w-nav-link w--current">首页</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about.html" class="nav-link w-nav-link">About</a>
+          <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">关于</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="Services.html" class="nav-link w-nav-link">Services</a>
+          <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">服务</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="products.html" class="nav-link w-nav-link">Products</a>
+          <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">产品</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="edge.html" class="nav-link w-nav-link">Edge</a>
+          <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">优势</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="Investment.html" class="nav-link w-nav-link">Investment</a>
+          <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">投资策略</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="Partnership.html" class="nav-link w-nav-link">Partnership</a>
+          <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">合作机会</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="contact.html" class="nav-link w-nav-link">Contact</a>
+          <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">联系我们</a>
+        </div>
+      </nav>
+      <div style="position: absolute; top: 10px; right: 10px; background-color: #000408;">
+        <button onclick="setLanguage('en')" id="btn-en"
+          style="background-color: #000408; color: white;">English</button>
+        <button onclick="setLanguage('zh')" id="btn-zh" style="background-color: #000408; color: white;">中文</button>
+      </div>
       <div class="menu-button w-nav-button">
         <div class="burger-icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
+
+  
   <section class="section">
     <div class="space-page-top"></div>
     <div class="w-layout-blockcontainer container w-container">
       <div class="title-flex">
-        <h1 data-w-id="5160fc72-0309-958a-1d5a-f68bed0cd2c9" style="opacity:0">Our Services</h1>
+        <h1 data-key="Our Services" data-w-id="5160fc72-0309-958a-1d5a-f68bed0cd2c9" style="opacity:0">Our Services</h1>
         <h5 data-w-id="cd887da8-8603-0243-dc11-c5bb2ebc0096" style="opacity:0" class="max-width-20rem">Explore the range of services we offer to meet your financial needs.</h5>
       </div>
     </div>
@@ -105,10 +113,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/Sticker-Mockup-p-500.jpg 500w, images/Sticker-Mockup-p-800.jpg 800w, images/Sticker-Mockup-p-1080.jpg 1080w, images/Sticker-Mockup.jpg 1440w"
                   alt="sticker mock up" src="images/Sticker-Mockup.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Personal Wealth Advisory</h4>
+              <h4 data-key="personal_wealth_title" class="caps">Personal Wealth Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our experts offer unbiased advice to assist you in making informed decisions
+              <p data-key="personal_wealth_description" class="self-align-left">Our experts offer unbiased advice to assist you in making informed decisions
                 about your assets.</p>
             </div>
           </div>
@@ -118,10 +126,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Philanthropic Advisory</h4>
+              <h4 data-key="philanthropic_advisory_title" class="caps">Philanthropic Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We help you plan and manage your charitable initiatives to maximize their
+              <p data-key="philanthropic_advisory_description" class="self-align-left">We help you plan and manage your charitable initiatives to maximize their
                 impact.</p>
             </div>
           </div>
@@ -131,10 +139,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Family Legacy and Governance Advisory</h4>
+              <h4 data-key="family_legacy_title" class="caps">Family Legacy and Governance Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our services help you build strong governance structures to align with your
+              <p data-key="family_legacy_description" class="self-align-left">Our services help you build strong governance structures to align with your
                 family's goals.</p>
             </div>
           </div>
@@ -144,10 +152,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Insurance Advisory</h4>
+              <h4 data-key="insurance_advisory_title" class="caps">Insurance Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We provide tailored insurance strategies to ensure your financial security.</p>
+              <p data-key="insurance_advisory_description" class="self-align-left">We provide tailored insurance strategies to ensure your financial security.</p>
             </div>
           </div>
           <div class="services-card">
@@ -156,10 +164,10 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Wealth Transfer and Estate Planning Advisory</h4>
+              <h4 data-key="wealth_transfer_title" class="caps">Wealth Transfer and Estate Planning Advisory</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our comprehensive plans assist in the smooth transfer of wealth to future
+              <p data-key="wealth_transfer_description" class="self-align-left">Our comprehensive plans assist in the smooth transfer of wealth to future
                 generations.</p>
             </div>
           </div>
@@ -169,29 +177,27 @@
                   srcset="images/Wall-Hanging-Poster-p-500.jpg 500w, images/Wall-Hanging-Poster-p-800.jpg 800w, images/Wall-Hanging-Poster-p-1080.jpg 1080w, images/Wall-Hanging-Poster.jpg 1440w"
                   alt="wall hanging poster" src="images/Wall-Hanging-Poster.jpg" loading="lazy" class="services-image">
               </div>
-              <h4 class="caps">Income Tax Planning Coordination</h4>
+              <h4 data-key="income_tax_title" class="caps">Income Tax Planning Coordination</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We develop strategies to minimize tax liabilities and enhance investment
+              <p data-key="income_tax_description" class="self-align-left">We develop strategies to minimize tax liabilities and enhance investment
                 returns.</p>
             </div>
           </div>
-
-          <p class="max-width-30rem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis,
-            dolor sed consectetur gravida.</p>
         </div>
+
         <div class="services-wrapper slide-from-right-animation">
-          <h5>Explore the range of services we offer to meet your financial needs.</h5>
-          <h2 class="services-title">SERVICES</h2>
+          <h5 data-key="Explore">Explore the range of services we offer to meet your financial needs.</h5>
+          <h2 data-key="SERVICES_heading" class="services-title">SERVICES</h2>
           <div class="services-card">
             <div class="services-title-flex">
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/CreativeDesignStudioX-p-500.jpg 500w, images/CreativeDesignStudioX-p-800.jpg 800w, images/CreativeDesignStudioX-p-1080.jpg 1080w, images/CreativeDesignStudioX.jpg 1440w"
                   alt="" src="images/CreativeDesignStudioX.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Trust and Estate Planning Coordination</h4>
+              <h4 data-key="trust_estate_title" class="caps">Trust and Estate Planning Coordination</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our team ensures that your legacy is preserved and managed across generations
+              <p data-key="trust_estate_description" class="self-align-left">Our team ensures that your legacy is preserved and managed across generations
                 according to your wishes.</p>
             </div>
           </div>
@@ -200,10 +206,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Next Gen Financial Education</h4>
+              <h4 data-key="next_gen_education_title" class="caps">Next Gen Financial Education</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We offer personalized financial education plans to prepare the next generation
+              <p data-key="next_gen_education_description" class="self-align-left">We offer personalized financial education plans to prepare the next generation
                 for future financial responsibilities.</p>
             </div>
           </div>
@@ -212,10 +218,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Financial Planning Analysis</h4>
+              <h4 data-key="financial_planning_title" class="caps">Financial Planning Analysis</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our analysis helps you build a comprehensive financial plan with tailored
+              <p data-key="financial_planning_description" class="self-align-left">Our analysis helps you build a comprehensive financial plan with tailored
                 recommendations.</p>
             </div>
           </div>
@@ -224,10 +230,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Investment Planning and Administration</h4>
+              <h4 data-key="investment_planning_title" class="caps">Investment Planning and Administration</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We offer solutions in asset allocation and management of investment portfolios.
+              <p data-key="investment_planning_description" class="self-align-left">We offer solutions in asset allocation and management of investment portfolios.
               </p>
             </div>
           </div>
@@ -236,10 +242,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Financial Reporting</h4>
+              <h4 data-key="financial_reporting_title" class="caps">Financial Reporting</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">Our reports provide clear insights into cash flow, net worth, and estate
+              <p data-key="financial_reporting_description" class="self-align-left">Our reports provide clear insights into cash flow, net worth, and estate
                 balance sheets.</p>
             </div>
           </div>
@@ -248,10 +254,10 @@
               <div class="services-icon"><img sizes="(max-width: 991px) 80px, 6vw"
                   srcset="images/AppleWatch-p-500.jpg 500w, images/AppleWatch-p-800.jpg 800w, images/AppleWatch-p-1080.jpg 1080w, images/AppleWatch.jpg 1440w"
                   alt="" src="images/AppleWatch.jpg" loading="lazy" class="services-image"></div>
-              <h4 class="caps">Family Office Services</h4>
+              <h4 data-key="family_office_title" class="caps">Family Office Services</h4>
             </div>
             <div class="services-text-block">
-              <p class="self-align-left">We assist in managing household and office finances, including bill payments
+              <p data-key="family_office_description" class="self-align-left">We assist in managing household and office finances, including bill payments
                 and tax preparation.</p>
             </div>
           </div>
@@ -286,52 +292,52 @@
         </div>
         <div class="footer-right-flex">
           <div class="footer-wrapper">
-            <h5 class="font-white">Main</h5>
+            <h5 data-key="Main" class="font-white">Main</h5>
             <div class="footer-link-wrapper">
-              <a href="index.html" class="footer-link">Home</a>
-              <a href="index.html" class="footer-link move-down">Home</a>
+              <a href="index.html" aria-current="page" class="footer-link w--current">Home</a>
+              <a href="index.html" aria-current="page" class="footer-link move-down w--current">首页</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="about.html" class="footer-link">About</a>
-              <a href="about.html" class="footer-link move-down">About</a>
+              <a href="about.html" class="footer-link move-down">关于</a>
             </div>
             <div class="footer-link-wrapper">
-              <a href="works.html" aria-current="page" class="footer-link w--current">Works</a>
-              <a href="works.html" aria-current="page" class="footer-link move-down w--current">Works</a>
+              <a href="works.html" class="footer-link">Works</a>
+              <a href="works.html" class="footer-link move-down">工作</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Pages</h5>
+            <h5 data-key="Pages" class="font-white">Pages</h5>
             <div class="footer-link-wrapper">
               <a href="contact.html" class="footer-link">Contact</a>
-              <a href="contact.html" class="footer-link move-down">Contact</a>
+              <a href="contact.html" class="footer-link move-down">联系</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="terms-conditions.html" class="footer-link">Terms &amp; Conditions</a>
-              <a href="terms-conditions.html" class="footer-link move-down">Terms &amp; Conditions</a>
+              <a href="terms-conditions.html" class="footer-link move-down">条款 &amp; 条件</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-              <a href="privacy-policy.html" class="footer-link move-down">Privacy Policy</a>
+              <a href="privacy-policy.html" class="footer-link move-down">隐私策略</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Utilities</h5>
+            <h5 data-key="Utilities" class="font-white">Utilities</h5>
             <div class="footer-link-wrapper">
               <a href="utilties/style-guide.html" class="footer-link">Style Guide</a>
-              <a href="utilties/style-guide.html" class="footer-link move-down">Style Guide</a>
+              <a href="utilties/style-guide.html" class="footer-link move-down">风格指南</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/instructions.html" class="footer-link">Instructions</a>
-              <a href="utilties/instructions.html" class="footer-link move-down">Instructions</a>
+              <a href="utilties/instructions.html" class="footer-link move-down">指示</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/licenses.html" class="footer-link">Licenses</a>
-              <a href="utilties/licenses.html" class="footer-link move-down">Licenses</a>
+              <a href="utilties/licenses.html" class="footer-link move-down">许可证</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/changelog.html" class="footer-link">Changelog</a>
-              <a href="utilties/changelog.html" class="footer-link move-down">Changelog</a>
+              <a href="utilties/changelog.html" class="footer-link move-down">更改日志</a>
             </div>
           </div>
         </div>
@@ -361,5 +367,81 @@
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
+
+
+<script>
+  let language = localStorage.getItem('language') || 'en'; // Default language
+
+  function loadDictionary() {
+      fetch('/dic/services.xml')
+          .then(response => response.text())
+          .then(data => {
+              const parser = new DOMParser();
+              const xmlDoc = parser.parseFromString(data, "text/xml");
+
+              // Update all elements with data-key
+              document.querySelectorAll('[data-key]').forEach(element => {
+                  const key = element.dataset.key;
+                  const translation = xmlDoc.querySelector(`entry[key="${key}"] > ${language}`);
+                  if (translation) {
+                      element.textContent = translation.textContent;
+                  }
+              });
+
+
+          });
+
+
+      // Load nav.xml for navigation links
+      // fetch('/dic/nav.xml')
+      //     .then(response => response.text())
+      //     .then(data => {
+      //         const parser = new DOMParser();
+      //         const xmlDoc = parser.parseFromString(data, "text/xml");
+
+      //         // Update the navigation links based on the selected language
+      //         const navMenu = document.getElementById('nav-menu');
+      //         navMenu.innerHTML = '';  // Clear any existing links
+      //         const navLinks = ['index', 'about', 'services', 'products', 'edge', 'investment', 'partnership', 'contact'];
+      //         navLinks.forEach(link => {
+      //             const navItem = document.createElement('a');
+      //             navItem.href = `${link}.html`;
+      //             navItem.innerText = xmlDoc.querySelector(`entry[key="${link}"] > ${language}`).textContent;
+      //             navMenu.appendChild(navItem);
+      //         });
+      //     });
+  }
+
+  function setLanguage(lang) {
+      language = lang;
+      localStorage.setItem('language', lang); // Save language preference
+      loadDictionary();
+  }
+
+  // Load content when the page loads
+  window.onload = loadDictionary;
+</script>
+
+<style>
+  button {
+      cursor: pointer;
+  }
+
+  /* Fade-in animation */
+  .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+
+      100% {
+          opacity: 1;
+      }
+  }
+</style>
 
 </html>

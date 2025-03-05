@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="index_1_heading">
+        <en>Welcome</en>
+        <zh>欢迎</zh>
+    </entry>
+    <entry key="index_2_heading">
+        <en>ZETA</en>
+        <zh>泽塔</zh>
+    </entry>
+    <entry key="hero_heading">
+        <en>Innovation Drives Future</en>
+        <zh>创新引领未来</zh>
+    </entry>
+    <entry key="hero_description">
+        <en>Creating lasting value through innovative solutions and professional services</en>
+        <zh>通过创新解决方案和专业服务创造持久价值</zh>
+    </entry>
+    <entry key="personal_wealth_title">
+        <en>Personal Wealth Advisory</en>
+        <zh>个人财富顾问服务</zh>
+    </entry>
+    <entry key="personal_wealth_description">
+        <en>Our experts offer unbiased advice to assist you in making informed decisions about your assets.</en>
+        <zh>我们的专家提供公正的建议，帮助您对资产做出明智决策。</zh>
+    </entry>
+    <entry key="philanthropic_advisory_title">
+        <en>Philanthropic Advisory</en>
+        <zh>慈善咨询服务</zh>
+    </entry>
+    <entry key="philanthropic_advisory_description">
+        <en>We help you plan and manage your charitable initiatives to maximize their impact.</en>
+        <zh>我们帮助您规划和管理慈善项目，以最大化其影响力。</zh>
+    </entry>
+        <entry key="family_legacy_title">
+        <en>Family Legacy and Governance Advisory</en>
+        <zh>家族传承与治理咨询</zh>
+    </entry>
+    <entry key="family_legacy_description">
+        <en>Our services help you build strong governance structures to align with your family's goals.</en>
+        <zh>我们的服务帮助您建立与家族目标一致的强大治理结构。</zh>
+    </entry>
+    <entry key="insurance_advisory_title">
+        <en>Insurance Advisory</en>
+        <zh>保险咨询服务</zh>
+    </entry>
+    <entry key="insurance_advisory_description">
+        <en>We provide tailored insurance strategies to ensure your financial security.</en>
+        <zh>我们提供定制的保险策略，确保您的财务安全。</zh>
+    </entry>
+    <entry key="wealth_transfer_title">
+        <en>Wealth Transfer and Estate Planning Advisory</en>
+        <zh>财富传承与遗产规划咨询</zh>
+    </entry>
+    <entry key="wealth_transfer_description">
+        <en>Our comprehensive plans assist in the smooth transfer of wealth to future generations.</en>
+        <zh>我们的全面计划帮助顺利将财富传承给后代。</zh>
+    </entry>
+    <entry key="income_tax_title">
+        <en>Income Tax Planning Coordination</en>
+        <zh>所得税规划协调</zh>
+    </entry>
+    <entry key="income_tax_description">
+        <en>We develop strategies to minimize tax liabilities and enhance investment returns.</en>
+        <zh>我们制定策略以减少税负并提高投资回报。</zh>
+    </entry>
+    <entry key="Explore">
+        <en>Explore the range of services we offer to meet your financial needs.</en>
+        <zh>了解我们提供的服务范围，以满足您的财务需求。</zh>
+    </entry>
+    <entry key="SERVICES_heading">
+        <en>SERVICES</en>
+        <zh>服务</zh>
+    </entry>
+    <entry key="trust_estate_title">
+        <en>Trust and Estate Planning Coordination</en>
+        <zh>信托与遗产规划协调</zh>
+    </entry>
+    <entry key="trust_estate_description">
+        <en>Our team ensures that your legacy is preserved and managed across generations according to your wishes.</en>
+        <zh>我们的团队确保您的财富根据您的意愿在世代间得以保存和管理。</zh>
+    </entry>
+    <entry key="next_gen_education_title">
+        <en>Next Gen Financial Education</en>
+        <zh>下一代财务教育</zh>
+    </entry>
+    <entry key="next_gen_education_description">
+        <en>We offer personalized financial education plans to prepare the next generation for future financial responsibilities.</en>
+        <zh>我们提供个性化的财务教育计划，为下一代做好未来财务责任的准备。</zh>
+    </entry>
+    <entry key="financial_planning_title">
+        <en>Financial Planning Analysis</en>
+        <zh>财务规划分析</zh>
+    </entry>
+    <entry key="financial_planning_description">
+        <en>Our analysis helps you build a comprehensive financial plan with tailored recommendations.</en>
+        <zh>我们的分析帮助您制定全面的财务计划并提供量身定制的建议。</zh>
+    </entry>
+    <entry key="investment_planning_title">
+        <en>Investment Planning and Administration</en>
+        <zh>投资规划与管理</zh>
+    </entry>
+    <entry key="investment_planning_description">
+        <en>We offer solutions in asset allocation and management of investment portfolios.</en>
+        <zh>我们提供资产配置和投资组合管理的解决方案。</zh>
+    </entry>
+    <entry key="financial_reporting_title">
+        <en>Financial Reporting</en>
+        <zh>财务报告</zh>
+    </entry>
+    <entry key="financial_reporting_description">
+        <en>Our reports provide clear insights into cash flow, net worth, and estate balance sheets.</en>
+        <zh>我们的报告为您提供关于现金流、净资产和资产负债表的清晰洞见。</zh>
+    </entry>
+    <entry key="family_office_title">
+        <en>Family Office Services</en>
+        <zh>家族办公室服务</zh>
+    </entry>
+    <entry key="family_office_description">
+        <en>We assist in managing household and office finances, including bill payments and tax preparation.</en>
+        <zh>我们协助管理家庭和办公室财务，包括账单支付和税务准备。</zh>
+    </entry>
+    <entry key="Our Story">
+        <en>Our Story</en>
+        <zh>我们的故事</zh>
+    </entry>
+    <entry key="View Work">
+        <en>View Work</en>
+        <zh>查看作品</zh>
+    </entry>
+    <entry key="Products_heading">
+        <en>Products</en>
+        <zh>产品</zh>
+    </entry>
+    <entry key="Design">
+        <en>Design</en>
+        <zh>设计</zh>
+    </entry>
+    <entry key="Development">
+        <en>Development</en>
+        <zh>建立</zh>
+    </entry>
+    <entry key="Our Edge">
+        <en>Our Edge</en>
+        <zh>我们的优势</zh>
+    </entry>
+    <entry key="UI/UX">
+        <en>UI/UX</en>
+        <zh>用户界面/用户体验</zh>
+    </entry>
+    <entry key="Branding">
+        <en>Branding</en>
+        <zh>品牌</zh>
+    </entry>
+    <entry key="Investment">
+        <en>Investment Strategies</en>
+        <zh>投资策略</zh>
+    </entry>
+    <entry key="Partnership">
+        <en>Partnership Opportunities</en>
+        <zh>合作机会</zh>
+    </entry>
+    <entry key="about_description">
+        <en>Zeta Quantum Capital Limited, established in 2024 in Hong Kong, is a leading asset management firm specializing in quantitative trading, algorithm development, and portfolio management.</en>
+        <zh>泽塔量子资本有限公司成立于2024年，总部位于香港，是一家专注于量化交易、算法开发和投资组合管理的领先资产管理公司。</zh>
+    </entry>
+    <entry key="stats_clients">
+        <en>Clients Served</en>
+        <zh>服务客户</zh>
+    </entry>
+    <entry key="stats_team_members">
+        <en>Team Members</en>
+        <zh>团队成员</zh>
+    </entry>
+    <entry key="stats_client_satisfaction">
+        <en>Client Satisfaction</en>
+        <zh>客户满意度</zh>
+    </entry>
+    <entry key="core_team_heading">
+        <en>Core Team</en>
+        <zh>核心团队</zh>
+    </entry>
+    <entry key="core_team_description">
+        <en>Our professional team is our most valuable asset and the core guarantee of creating value for our clients.</en>
+        <zh>我们的专业团队是公司最宝贵的资产，也是为客户创造价值的核心保障。</zh>
+    </entry>
+    <entry key="team_member_1">
+        <en>I was blown away by his creativity in creating a memorable brand identity. His design work hashelped us stand out.</en>
+        <zh>我被他创造令人难忘的品牌形象的创造力所震撼。他的设计工作有帮助我们脱颖而出。</zh>
+    </entry>
+    <entry key="team_member_1_role">
+        <en>Founder &amp; CEO</en>
+        <zh>创始人兼首席执行官</zh>
+    </entry>
+    <entry key="team_member_2">
+        <en>I could not be happier with the results of our collaboration. He took our vision and brought it to life.</en>
+        <zh>我对我们的合作成果感到非常高兴。他接受了我们的愿景并将其变为现实。</zh>
+    </entry>
+    <entry key="team_member_2_role">
+        <en>Technical Director</en>
+        <zh>技术总监</zh>
+    </entry>
+    <entry key="team_member_3">
+        <en>It was a pleasure working on a design project and I must say that the experience exceeded allmy expectations.</en>
+        <zh>从事设计项目是一种乐趣，我必须说这种体验超越了一切我的期望。</zh>
+    </entry>
+    <entry key="team_member_3_role">
+        <en>Product Manager</en>
+        <zh>产品经理</zh>
+    </entry>
+    <entry key="team_member_4_role">
+        <en>Design Director</en>
+        <zh>设计总监</zh>
+    </entry>
+    <entry key="Contact">
+        <en>Contact me</en>
+        <zh>联系我们</zh>
+    </entry>
+    <entry key="GET IN">
+        <en>GET IN</en>
+        <zh>进入</zh>
+    </entry>
+    <entry key="TOUCH">
+        <en>TOUCH</en>
+        <zh>点击</zh>
+    </entry>
+    <entry key="Contact_1">
+        <en>Contact</en>
+        <zh>联系</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+</dictionary>

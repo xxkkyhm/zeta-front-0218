@@ -49,48 +49,57 @@
       <nav role="navigation" class="nav-menu w-nav-menu">
         <div class="nav-link-wrapper">
           <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Home</a>
-          <a href="index.html" aria-current="page" class="nav-link move-down hide-on-tab w-nav-link w--current">Home</a>
+          <a href="index.html" id="home-link" aria-current="page"
+            class="nav-link move-down hide-on-tab w-nav-link w--current">首页</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="about.html" class="nav-link w-nav-link">About</a>
-          <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">About</a>
+          <a href="about.html" class="nav-link move-down hide-on-tab w-nav-link">关于</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Services.html" class="nav-link w-nav-link">Services</a>
-          <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">Services</a>
+          <a href="Services.html" class="nav-link move-down hide-on-tab w-nav-link">服务</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="products.html" class="nav-link w-nav-link">Products</a>
-          <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">Products</a>
+          <a href="products.html" class="nav-link move-down hide-on-tab w-nav-link">产品</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="edge.html" class="nav-link w-nav-link">Edge</a>
-          <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">Edge</a>
+          <a href="edge.html" class="nav-link move-down hide-on-tab w-nav-link">优势</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Investment.html" class="nav-link w-nav-link">Investment</a>
-          <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">Investment</a>
+          <a href="Investment.html" class="nav-link move-down hide-on-tab w-nav-link">投资策略</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="Partnership.html" class="nav-link w-nav-link">Partnership</a>
-          <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">Partnership</a>
+          <a href="Partnership.html" class="nav-link move-down hide-on-tab w-nav-link">合作机会</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="contact.html" class="nav-link w-nav-link">Contact</a>
-          <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">Contact</a>
+          <a href="contact.html" class="nav-link move-down hide-on-tab w-nav-link">联系我们</a>
         </div>
       </nav>
+      <div style="position: absolute; top: 10px; right: 10px; background-color: #000408;">
+        <button onclick="setLanguage('en')" id="btn-en"
+          style="background-color: #000408; color: white;">English</button>
+        <button onclick="setLanguage('zh')" id="btn-zh" style="background-color: #000408; color: white;">中文</button>
+      </div>
       <div class="menu-button w-nav-button">
         <div class="burger-icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
+
+
+  
   <section class="section">
     <div class="w-layout-blockcontainer container w-container">
       <div class="space-page-top"></div>
       <div class="title-flex">
-        <h1 data-w-id="2b428689-5a35-99ff-f397-e68c91393ae6" style="opacity:0">Contact Us</h1>
-        <h5 data-w-id="2b428689-5a35-99ff-f397-e68c91393ae8" style="opacity:0" class="max-width-20rem">We have offices
+        <h1 data-key="contact_heading" data-w-id="2b428689-5a35-99ff-f397-e68c91393ae6" style="opacity:0">Contact Us</h1>
+        <h5 data-key="contact_description" data-w-id="2b428689-5a35-99ff-f397-e68c91393ae8" style="opacity:0" class="max-width-20rem">We have offices
           in both Shanghai and Hong Kong. Here's how you can reach us:</h5>
       </div>
       <div class="space-4rem"></div>
@@ -100,15 +109,15 @@
     <div class="w-layout-blockcontainer container w-container">
       <!-- Contact Information Section -->
       <div class="contact-info">
-        <h3>Shanghai Office</h3>
-        <p><strong>Email:</strong> <a href="mailto:shanghai@zetaquantum.com">shanghai@zetaquantum.com</a></p>
-        <p><strong>Phone:</strong> +86 13818360835</p>
-        <p><strong>Address:</strong> Zeta Quantum Capital, 88 Century Avenue, Pudong, Shanghai, China</p>
+        <h3 data-key="shanghai_office">Shanghai Office</h3>
+        <p data-key="shanghai_email"><strong>Email:</strong> <a  href="mailto:shanghai@zetaquantum.com">shanghai@zetaquantum.com</a></p>
+        <p data-key="shanghai_phone"><strong>Phone:</strong> +86 13818360835</p>
+        <p data-key="shanghai_address"><strong>Address:</strong> Zeta Quantum Capital, 88 Century Avenue, Pudong, Shanghai, China</p>
 
-        <h3>Hong Kong Office</h3>
-        <p><strong>Email:</strong> <a href="mailto:contact@zetaquantum.com">contact@zetaquantum.com</a></p>
-        <p><strong>Phone:</strong> +852 51773162</p>
-        <p><strong>Address:</strong> Zeta Quantum Capital, 123 Finance Street, Central, Hong Kong</p>
+        <h3 data-key="hongkong_office">Hong Kong Office</h3>
+        <p data-key="hongkong_email"><strong>Email:</strong> <a href="mailto:contact@zetaquantum.com">contact@zetaquantum.com</a></p>
+        <p data-key="hongkong_phone"><strong>Phone:</strong> +852 51773162</p>
+        <p data-key="hongkong_address"><strong>Address:</strong> Zeta Quantum Capital, 123 Finance Street, Central, Hong Kong</p>
       </div>
     </div>
   </section>
@@ -117,8 +126,6 @@
     <div class="w-layout-blockcontainer container w-container">
       <div class="title-flex">
         <h1 data-w-id="0e5d0adf-3843-4287-2b23-42ae30264137">fAQ</h1>
-        <h5 class="max-width-20rem slide-from-right-animation">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </h5>
       </div>
       <div class="space-4rem"></div>
       <div class="faq-wrapper slide-up-animation">
@@ -126,7 +133,7 @@
           <div data-w-id="0e5d0adf-3843-4287-2b23-42ae3026413e" class="dropdown-toggle">
             <div class="space-1rem"></div>
             <div class="faq-flex">
-              <h4 class="faq-question">What is the core philosophy of Zeta Quantitative Capital regarding risk
+              <h4 data-key="about_paragraph_2_heading" class="faq-question">What is the core philosophy of Zeta Quantitative Capital regarding risk
                 management?</h4>
               <div data-is-ix2-target="1" class="faq-icon" data-w-id="0e5d0adf-3843-4287-2b23-42ae30264143"
                 data-animation-type="lottie"
@@ -136,7 +143,7 @@
             </div>
             <div class="space-1rem"></div>
             <div class="dropdown-answer">
-              <p>At Zeta Quantum Capital, we combine cutting-edge intraday trading strategies with robust software
+              <p data-key="about_paragraph_2">At Zeta Quantum Capital, we combine cutting-edge intraday trading strategies with robust software
                 development and continuous model optimization to deliver exceptional results. Risk management is the
                 cornerstone of our philosophy, ensuring that every decision is guided by a commitment to safeguarding
                 our clients' assets.</p>
@@ -148,7 +155,7 @@
           <div data-w-id="0e5d0adf-3843-4287-2b23-42ae3026414a" class="dropdown-toggle">
             <div class="space-1rem"></div>
             <div class="faq-flex">
-              <h4 class="faq-question">Who are the primary clients of your services, and how do you aim to benefit them?
+              <h4 data-key="about_paragraph_3_heading" class="faq-question">Who are the primary clients of your services, and how do you aim to benefit them?
               </h4>
               <div data-is-ix2-target="1" class="faq-icon" data-w-id="0e5d0adf-3843-4287-2b23-42ae3026414f"
                 data-animation-type="lottie"
@@ -158,7 +165,7 @@
             </div>
             <div class="space-1rem"></div>
             <div class="dropdown-answer">
-              <p>Our services cater to a diverse range of clients, including institutional investors, individual
+              <p data-key="about_paragraph_3">Our services cater to a diverse range of clients, including institutional investors, individual
                 investors, and hedge funds. Leveraging advanced algorithms and proprietary technology, we aim to provide
                 tailored solutions that maximize returns while minimizing risk.</p>
             </div>
@@ -169,7 +176,7 @@
           <div data-w-id="0e5d0adf-3843-4287-2b23-42ae30264156" class="dropdown-toggle">
             <div class="space-1rem"></div>
             <div class="faq-flex">
-              <h4 class="faq-question">Where are Zeta Quantum Capital's offices located, and what is their main focus?
+              <h4 data-key="about_paragraph_4_heading" class="faq-question">Where are Zeta Quantum Capital's offices located, and what is their main focus?
               </h4>
               <div data-is-ix2-target="1" class="faq-icon" data-w-id="0e5d0adf-3843-4287-2b23-42ae3026415b"
                 data-animation-type="lottie"
@@ -178,8 +185,8 @@
                 data-duration="0" data-ix2-initial-state="0"></div>
             </div>
             <div class="space-1rem"></div>
-            <div class="dropdown-answer">
-              <p>With offices in both Hong Kong and Shanghai, Zeta Quantum Capital is dedicated to pushing the
+            <div data-key="about_paragraph_4" class="dropdown-answer">
+              <p data-key="about_paragraph_4">With offices in both Hong Kong and Shanghai, Zeta Quantum Capital is dedicated to pushing the
                 boundaries of quantitative finance and empowering our clients to achieve their investment goals.</p>
             </div>
             <div class="space-1rem"></div>
@@ -216,52 +223,52 @@
         </div>
         <div class="footer-right-flex">
           <div class="footer-wrapper">
-            <h5 class="font-white">Main</h5>
+            <h5 data-key="Main" class="font-white">Main</h5>
             <div class="footer-link-wrapper">
-              <a href="index.html" class="footer-link">Home</a>
-              <a href="index.html" class="footer-link move-down">Home</a>
+              <a href="index.html" aria-current="page" class="footer-link w--current">Home</a>
+              <a href="index.html" aria-current="page" class="footer-link move-down w--current">首页</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="about.html" class="footer-link">About</a>
-              <a href="about.html" class="footer-link move-down">About</a>
+              <a href="about.html" class="footer-link move-down">关于</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="works.html" class="footer-link">Works</a>
-              <a href="works.html" class="footer-link move-down">Works</a>
+              <a href="works.html" class="footer-link move-down">工作</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Pages</h5>
+            <h5 data-key="Pages" class="font-white">Pages</h5>
             <div class="footer-link-wrapper">
-              <a href="contact.html" aria-current="page" class="footer-link w--current">Contact</a>
-              <a href="contact.html" aria-current="page" class="footer-link move-down w--current">Contact</a>
+              <a href="contact.html" class="footer-link">Contact</a>
+              <a href="contact.html" class="footer-link move-down">联系</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="terms-conditions.html" class="footer-link">Terms &amp; Conditions</a>
-              <a href="terms-conditions.html" class="footer-link move-down">Terms &amp; Conditions</a>
+              <a href="terms-conditions.html" class="footer-link move-down">条款 &amp; 条件</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-              <a href="privacy-policy.html" class="footer-link move-down">Privacy Policy</a>
+              <a href="privacy-policy.html" class="footer-link move-down">隐私策略</a>
             </div>
           </div>
           <div class="footer-wrapper">
-            <h5 class="font-white">Utilities</h5>
+            <h5 data-key="Utilities" class="font-white">Utilities</h5>
             <div class="footer-link-wrapper">
               <a href="utilties/style-guide.html" class="footer-link">Style Guide</a>
-              <a href="utilties/style-guide.html" class="footer-link move-down">Style Guide</a>
+              <a href="utilties/style-guide.html" class="footer-link move-down">风格指南</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/instructions.html" class="footer-link">Instructions</a>
-              <a href="utilties/instructions.html" class="footer-link move-down">Instructions</a>
+              <a href="utilties/instructions.html" class="footer-link move-down">指示</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/licenses.html" class="footer-link">Licenses</a>
-              <a href="utilties/licenses.html" class="footer-link move-down">Licenses</a>
+              <a href="utilties/licenses.html" class="footer-link move-down">许可证</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="utilties/changelog.html" class="footer-link">Changelog</a>
-              <a href="utilties/changelog.html" class="footer-link move-down">Changelog</a>
+              <a href="utilties/changelog.html" class="footer-link move-down">更改日志</a>
             </div>
           </div>
         </div>
@@ -291,5 +298,98 @@
     crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
+
+<script>
+  let language = localStorage.getItem('language') || 'en'; // Default language
+
+  function loadDictionary() {
+      fetch('/dic/contact.xml')
+          .then(response => response.text())
+          .then(data => {
+              const parser = new DOMParser();
+              const xmlDoc = parser.parseFromString(data, "text/xml");
+
+              // Update all elements with data-key
+              document.querySelectorAll('[data-key]').forEach(element => {
+                  const key = element.dataset.key;
+                  const translation = xmlDoc.querySelector(`entry[key="${key}"] > ${language}`);
+                  if (translation) {
+                      element.textContent = translation.textContent;
+                  }
+              });
+
+
+          });
+
+          fetch('/dic/FAQ.xml')
+          .then(response => response.text())
+          .then(data => {
+              const parser = new DOMParser();
+              const xmlDoc = parser.parseFromString(data, "text/xml");
+
+              // Update all elements with data-key
+              document.querySelectorAll('[data-key]').forEach(element => {
+                  const key = element.dataset.key;
+                  const translation = xmlDoc.querySelector(`entry[key="${key}"] > ${language}`);
+                  if (translation) {
+                      element.textContent = translation.textContent;
+                  }
+              });
+
+
+          });
+
+
+      // Load nav.xml for navigation links
+      // fetch('/dic/nav.xml')
+      //     .then(response => response.text())
+      //     .then(data => {
+      //         const parser = new DOMParser();
+      //         const xmlDoc = parser.parseFromString(data, "text/xml");
+
+      //         // Update the navigation links based on the selected language
+      //         const navMenu = document.getElementById('nav-menu');
+      //         navMenu.innerHTML = '';  // Clear any existing links
+      //         const navLinks = ['index', 'about', 'services', 'products', 'edge', 'investment', 'partnership', 'contact'];
+      //         navLinks.forEach(link => {
+      //             const navItem = document.createElement('a');
+      //             navItem.href = `${link}.html`;
+      //             navItem.innerText = xmlDoc.querySelector(`entry[key="${link}"] > ${language}`).textContent;
+      //             navMenu.appendChild(navItem);
+      //         });
+      //     });
+  }
+
+  function setLanguage(lang) {
+      language = lang;
+      localStorage.setItem('language', lang); // Save language preference
+      loadDictionary();
+  }
+
+  // Load content when the page loads
+  window.onload = loadDictionary;
+</script>
+
+<style>
+  button {
+      cursor: pointer;
+  }
+
+  /* Fade-in animation */
+  .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+  }
+
+  @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+
+      100% {
+          opacity: 1;
+      }
+  }
+</style>
 
 </html>

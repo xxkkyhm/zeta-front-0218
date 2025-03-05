@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="products_heading">
+        <en>Our Products</en>
+        <zh>我们的产品</zh>
+    </entry>
+    <entry key="product_1_heading">
+        <en>Global Cryptocurrency Trading</en>
+        <zh>全球加密货币交易</zh>
+    </entry>
+    <entry key="product_1_description">
+        <en>
+            We focus on the cryptocurrency market, with Bitcoin as our primary asset, complemented by derivatives trading strategies. By leveraging sophisticated quantitative models and algorithms, we capitalize on short-term arbitrage opportunities in the highly volatile crypto market. At the same time, our robust risk management framework ensures minimal exposure to market fluctuations.
+        </en>
+        <zh>
+            我们专注于加密货币市场，主要以比特币为核心资产，结合合约交易进行投资布局。通过先进的量化模型和算法，我们能够在高波动的加密货币市场中捕捉短期套利机会，同时通过严格的风险管理体系，降低市场波动带来的潜在损失。
+        </zh>
+    </entry>
+    <entry key="product_1_strategies">
+        <en>Key Strategies: Trend following, market-neutral strategies, arbitrage trading.</en>
+        <zh>主要策略：趋势跟踪、市场中性、套利交易等。</zh>
+    </entry>
+    <entry key="product_1_technology">
+        <en>Technical Edge: High-frequency trading systems and real-time data analytics.</en>
+        <zh>技术优势：高频交易系统与实时数据分析能力。</zh>
+    </entry>
+    <entry key="product_1_market_coverage">
+        <en>Market Coverage: Major cryptocurrency exchanges globally, ensuring liquidity and execution efficiency.</en>
+        <zh>覆盖范围：全球主要加密货币交易所，确保流动性和执行效率。</zh>
+    </entry>
+    <entry key="product_2_heading">
+        <en>Futures Trading in Mainland China</en>
+        <zh>中国内地期货交易</zh>
+    </entry>
+    <entry key="product_2_description">
+        <en>
+            In the Chinese futures market, we specialize in both commodity and financial futures. By analyzing extensive market data and using predictive models, we design efficient trading strategies tailored to the dynamic futures landscape.
+        </en>
+        <zh>
+            我们在中国内地期货市场中，专注于商品期货和金融期货的投资，通过对市场大数据的深入分析和模型预测，制定高效的交易策略。
+        </zh>
+    </entry>
+    <entry key="product_2_assets_traded">
+        <en>Assets Traded: Energy, metals, agricultural commodities, and financial derivatives like stock index futures.</en>
+        <zh>交易标的：覆盖能源、金属、农产品等核心商品期货，以及股指期货等金融衍生品。</zh>
+    </entry>
+    <entry key="product_2_core_strategies">
+        <en>Core Strategies: Intraday trading, high-frequency arbitrage, cross-contract arbitrage.</en>
+        <zh>核心策略：日内交易、高频套利、跨期套利等。</zh>
+    </entry>
+    <entry key="product_2_risk_management">
+        <en>Risk Management: A stringent framework to control drawdowns in a high-leverage environment.</en>
+        <zh>风险管理：严谨的风控体系，确保在高杠杆环境下有效控制回撤。</zh>
+    </entry>
+    <entry key="product_3_heading">
+        <en>Global External Investments</en>
+        <zh>资金外投</zh>
+    </entry>
+    <entry key="product_3_description">
+        <en>
+            We actively allocate capital to promising sectors and industries worldwide. By conducting in-depth industry research and identifying potential opportunities, we achieve value growth through diversified investments.
+        </en>
+        <zh>
+            我们积极将资金配置到全球范围内具有前景的行业和领域。通过对行业趋势的深入研究和对潜在机遇的敏锐捕捉，我们在多元化投资中实现价值增长。
+        </zh>
+    </entry>
+    <entry key="product_3_focus_areas">
+        <en>Focus Areas: Technology innovation (AI, blockchain), healthcare, green energy, and other high-growth industries.</en>
+        <zh>重点领域：科技创新（人工智能、区块链）、医疗健康、绿色能源等高增长行业。</zh>
+    </entry>
+    <entry key="product_3_investment_methods">
+        <en>Investment Methods: Equity investments, venture capital, and joint funds.</en>
+        <zh>投资方式：股权投资、风险投资、联合基金等灵活形式。</zh>
+    </entry>
+    <entry key="product_3_objective">
+        <en>Objective: To identify the best opportunities for long-term capital appreciation for our clients.</en>
+        <zh>目标：为客户的资本寻找中长期增值的最佳机会。</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+</dictionary>

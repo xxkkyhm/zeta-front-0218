@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="investment_heading">
+        <en>Investment Strategies</en>
+        <zh>投资策略</zh>
+    </entry>
+    <entry key="investment_function">
+        <en>Enable customers to understand your specific investment methods and model features.</en>
+        <zh>让客户了解您的具体投资方法和模型特点。</zh>
+    </entry>
+    <entry key="investment_1_subheading">
+        <en>Investment logic and philosophy: </en>
+        <zh>投资逻辑和理念：</zh>
+    </entry>
+    <entry key="investment_1_description">
+        <en>such as data-driven models, market neutral strategies, etc.</en>
+        <zh>如基于数据驱动的模型、市场中性策略等。</zh>
+    </entry>
+    <entry key="investment_2_subheading">
+        <en>Strategy classification:</en>
+        <zh>策略分类：</zh>
+    </entry>
+    <entry key="investment_2_description">
+        <en>Main strategies such as trend tracking, arbitrage trading, and intraday high-frequency trading.</en>
+        <zh>趋势跟踪、套利交易、日内高频交易等主要策略。</zh>
+    </entry>
+    <entry key="investment_3_subheading">
+        <en>Risk control mechanism:</en>
+        <zh>风险控制机制：</zh>
+    </entry>
+    <entry key="investment_3_description">
+        <en>How to reduce the risks caused by market fluctuations through scientific methods.</en>
+        <zh>如何通过科学方法降低市场波动带来的风险。</zh>
+    </entry>
+    <entry key="investment_4_subheading">
+        <en>Historical performance</en>
+        <zh>历史表现：</zh>
+    </entry>
+    <entry key="investment_4_description">
+        <en>Use charts or data to demonstrate the long-term effects of strategies (compliant).</en>
+        <zh>用图表或数据展示策略的长期效果（需合规）。</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+</dictionary>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="index">
+        <en>Home</en>
+        <zh>首页</zh>
+    </entry>
+    <entry key="about">
+        <en>About</en>
+        <zh>关于我们</zh>
+    </entry>
+    <entry key="services">
+        <en>Services</en>
+        <zh>服务</zh>
+    </entry>
+    <entry key="products">
+        <en>Products</en>
+        <zh>产品</zh>
+    </entry>
+    <entry key="edge">
+        <en>Edge</en>
+        <zh>优势</zh>
+    </entry>
+    <entry key="investment">
+        <en>Investment</en>
+        <zh>投资策略</zh>
+    </entry>
+    <entry key="partnership">
+        <en>Partnership</en>
+        <zh>合作机会</zh>
+    </entry>
+    <entry key="contact">
+        <en>Contact</en>
+        <zh>联系我们</zh>
+    </entry>
+</dictionary>

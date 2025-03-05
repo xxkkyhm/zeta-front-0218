@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry key="partnership_heading">
+        <en>Partnership Opportunities</en>
+        <zh>合作机会</zh>
+    </entry>
+    <entry key="partnership_function">
+        <en>Attract potential partners, explain cooperation methods and values.</en>
+        <zh>吸引潜在合作伙伴，说明合作方式和价值。</zh>
+    </entry>
+    <entry key="partnership_1_subheading">
+        <en>Cooperation areas</en>
+        <zh>合作领域</zh>
+    </entry>
+    <entry key="partnership_1_description">
+        <en>Such as joint investment, technology cooperation, strategic development, etc.</en>
+        <zh>如联合投资、技术合作、策略开发等。</zh>
+    </entry>
+    <entry key="partnership_2_subheading">
+        <en>Advantages of Collaboration</en>
+        <zh>合作优势</zh>
+    </entry>
+    <entry key="partnership_2_description">
+        <en>Why Choose Your Company as a Partner.</en>
+        <zh>为何选择您的公司作为合作伙伴。</zh>
+    </entry>
+    <entry key="partnership_3_subheading">
+        <en>Contact information</en>
+        <zh>联系方式</zh>
+    </entry>
+    <entry key="partnership_3_description">
+        <en>A dedicated business contact email or form.</en>
+        <zh>专设的商务联系邮箱或表单。</zh>
+    </entry>
+    <entry key="Main">
+        <en>Main</en>
+        <zh>主要</zh>
+    </entry>
+    <entry key="Pages">
+        <en>Pages</en>
+        <zh>页面</zh>
+    </entry>
+    <entry key="Utilities">
+        <en>Utilities</en>
+        <zh>公用事业</zh>
+    </entry>
+
+</dictionary>
